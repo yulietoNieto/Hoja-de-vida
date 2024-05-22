@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background: #74959c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.header img.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .content .p-1 {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 0;
+}
+
+.header .content .p-2 {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.info {
+    width: 45%;
+    background: #c3bacd;
+    margin: 10px 0;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.tituloSecInfo {
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.contInfo {
+    font-size: 1em;
+}
+
+.proyectos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-proyectos {
+    background: #796e89;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
